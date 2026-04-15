@@ -1,0 +1,27 @@
+# requirements.txt
+python-dotenv>=1.0.0
+
+# LLM Providers (install at least one)
+anthropic>=0.25.0          # pip install anthropic
+openai>=1.0.0            # pip install openai
+google-generativeai>=0.5.0 # pip install google-generativeai
+
+# Vector Store (optional — swap in place of dict-based DBs)
+# chromadb>=0.4.0          # pip install chromadb
+# faiss-cpu>=1.7.4         # pip install faiss-cpu
+
+# NLP / Embeddings (optional upgrades for NER + reranker)
+# spacy>=3.7.0             # pip install spacy  (replace rule-based NER)
+# sentence-transformers>=2.2.0  # for semantic reranking
+
+# Caching (optional Redis upgrade)
+# redis>=5.0.0             # pip install redis
+
+# Testing
+pytest>=8.0.0
+
+# 3D Medical Vision (Latest Update)
+streamlit>=1.30.0
+plotly>=5.18.0
+scipy>=1.11.0
+numpy>=1.24.0
